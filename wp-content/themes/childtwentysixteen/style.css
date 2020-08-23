@@ -1,9 +1,27 @@
 /*
-Theme Name: Flutterfish
+Theme Name: Flutterfish 
 Theme URI: flutterfish.app
 Description: Child theme based on Twenty Sixteen 
 Author: Flutterfish limited
 Version: 1.0
 Template: twentysixteen
 */
+
 @import url('../twentysixteen/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;font-family: 
+font-family: 'Open Sans', sans-serif; */
+
+.entry-title {
+    font-family: 'Roboto', sans-serif;font-family;
+}
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #1AA6B7;
+}
+
+.menu-toggle:hover, .menu-toggle:focus {
+    background-color: #f3f4f5;
+    border-color: #007acc;
+    color: #1aa6b7;
+}
